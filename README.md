@@ -44,6 +44,7 @@ target_modules = ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj"
 This made the model faster, cheaper, and domain-specific without losing its reasoning ability.
 
 3. Unsloth Optimization
+   link:-https://unsloth.ai/
 
 Allowed me to:
 
@@ -54,6 +55,7 @@ Skip manual tokenization pipelines (Unsloth handles text → tokens internally).
 Use gradient checkpointing & memory optimizations to train with limited GPU memory.
 
 4. Weights & Biases (W&B Dashboard)
+   link:-https://wandb.ai/site/
 
 I connected training to the W&B website, which automatically generated a dashboard.
 
